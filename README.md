@@ -20,13 +20,19 @@ Problem 2: Knapsack with Profit
 
   Example:
   Input:
+    
     C = 3
-    W: 1 2 3  
+    
+    W: 1 2 3 
+    
     P: 100 5 50
 
   Selected Items:
+    
     1
+    
     2
+    
   Explanation: Possible selections that can be put in the knapsack are: 1 with profit 100 2 with profit 5 3 with profit 50 1 and 2 with profit 105 Note that in this problem, there is no   
   need that the some of weights be exactly C. Hence, in this example, 1 is a valid solution but since the profit is lower than the maximum, is not the final answer.
 
@@ -34,14 +40,20 @@ Problem 2: Knapsack with Profit
     First line is C. Second line is the number of objects, N. The next N lines, each line contains two numbers: the first number is the weight of an object and the second number is the   
     profit   of that object.
   Example:
+    
     3
+    
     3
+    
     1 100
+    
     2 5
+    
     3 50
     
   Output Format
     Print out the maximum profit.
   Example: 
+   
     105
     
